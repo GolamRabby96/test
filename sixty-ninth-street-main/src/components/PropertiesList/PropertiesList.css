@@ -1,0 +1,165 @@
+.TypeSelector {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #3a3a3a;
+  outline: green;
+  background-color: transparent;
+  border: 1px solid rgb(159, 204, 255);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.TypeSelector:hover {
+  transition: 0.3s ease-in-out all;
+  box-shadow: 0px 0px 15px rgb(203, 226, 255);
+}
+
+.propertiesForm {
+  width: 100%;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  font-weight: bold;
+  color: #3a3a3a;
+  outline: green;
+  background-color: transparent;
+  border: 1px solid rgb(159, 204, 255);
+  border-radius: 3px;
+}
+
+/* span {
+  color: rgb(128, 128, 128);
+} */
+
+.propertiesForm:hover {
+  transition: 0.3s ease-in-out all;
+  box-shadow: 0px 0px 15px rgb(203, 226, 255);
+}
+
+.RjpropertiseHEading {
+  padding: 20px 0px;
+}
+.typesCount {
+  padding-bottom: 80px;
+}
+.propertiesForm {
+  position: relative;
+  z-index: 1;
+}
+.propertiesRangeCount {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+/* Properties Cards */
+
+.RjPropertiseCard {
+  margin-left: 10px;
+  margin-bottom: 30px !important;
+  max-width: 100%;
+  border: none;
+  background-color:#06225ba3;
+  color: white;
+}
+
+.RjPropertiseCard:hover {
+  box-shadow: 0px 0px 20px #c0c0c0;
+  transition: ease 0.6s all;
+  background-color: rgba(31, 30, 30, 0.801);
+}
+
+.RjPropertiesImg {
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.RjPropertiseCard:hover .RjPropertiesImg img {
+  transform: scale(1.1);
+  transition: ease 0.6s all;
+  box-sizing: border-box;
+  overflow: hidden; 
+}
+
+.RjPropertiesLInk {
+  text-decoration: none;
+  color: black;
+}
+
+.RjPropertiesLInk:hover {
+  color: black;
+}
+
+.RjPropertiesImg img {
+  width: 100%;
+  min-height:180px;
+  max-height:180px;
+  box-sizing: border-box;
+  border-left: 2px solid #003aa5;
+}
+
+.card-title {
+  margin-bottom: 1px !important;
+}
+
+.RjPropertiseUserSection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.RjProUser img {
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.RjPropertiesListIcon {
+  display: flex;
+  align-items: center;
+}
+.RjPropertiesListIcon a:hover {
+  color: rgb(218, 11, 4);
+  transition: ease 0.6s all;
+}
+
+/* Latest Listing */
+
+.LatestListing {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(233, 243, 248);
+}
+
+.LatestListingCards {
+  display: flex;
+  margin: 30px 0px;
+  cursor: pointer;
+}
+
+.LatestListingCards:hover .LatestListingImage {
+  transform: scale(1.1);
+  transition: 0.5s all ease-in-out;
+}
+
+.LatestListingImage {
+  width: 35%;
+  height: 100px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.LatestListingNames {
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 5px;
+  color: rgb(65, 65, 65);
+}
+
+.LatestListingIcons {
+  color: rgb(94, 94, 94);
+  font-size: 14px;
+}
